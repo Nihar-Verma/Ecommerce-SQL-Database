@@ -1,4 +1,5 @@
-Insert Into Customer Values
+INSERT INTO Customer (FirstName, LastName, DateOfBirth, Email, Password, PhoneNumber) 
+VALUES
 ('Aamir','Abbasi','1998-03-29','Aamir@Whatmobile.Com.Pk','92Eac13CiJz','03008564501'),
 ('Aamir','Raees','1994-07-23','aamir.rais150@gmail.com','yEN[J(78','03007365250'),
 ('Abbas','Raza','1991-06-07','Abbas_raza94@Hotmail.Com','hLL77dq1_*','03235536781'),
