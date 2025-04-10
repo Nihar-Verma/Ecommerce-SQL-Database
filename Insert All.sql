@@ -1,5 +1,3 @@
-﻿use OnlineShopping;
-
 Insert Into Customer Values
 ('Aamir','Abbasi','1998-03-29','Aamir@Whatmobile.Com.Pk','92Eac13CiJz','03008564501'),
 ('Aamir','Raees','1994-07-23','aamir.rais150@gmail.com','yEN[J(78','03007365250'),
@@ -542,9 +540,8 @@ Insert Into Customer Values
 ('Zohaib','Raza','1997-05-06','Xaibbb@Gmail.Com','HRK^z*JL','03123844655'),
 ('Zubair','Shah','1997-11-28','Shai_53@Yahoo.Com','b1YLFYu8[GV','03005046472'),
 ('Zubair','Ahmad','1999-10-26','umar.khan218@yahoo.com',',S4d)^h3@|','03154157567'),
-('Zuhaib','Zubair','1992-04-21','wy_26159@126.com','b1YLFYu8[GV','03352116180')
+('Zuhaib','Zubair','1992-04-21','wy_26159@126.com','b1YLFYu8[GV','03352116180');
 
---VENDOR
 
 Insert Into Vendor Values 
 (' BESTEZY','Shop 107, chak janobi near pull 11 sargodha','sharoon2598@gmail.com','xk>nK1*l9)o1','03064094969'),
@@ -594,9 +591,8 @@ Insert Into Vendor Values
 ('SHOP PAKISTAN.COM','Office no 16 Malakand Batkhela Thana.&#160;','syed03452717293@gmail.com','EXt7ZFU*','03403803030'),
 ('SHOPEQUICK','Office no 18 Men&#39;s Care Top Floor Modern Hospital Opposite Safari Park,Main University Road Karachi.','yameensajjad@gmail.com','8A(r{}4','03608643440'),
 ('SHOPONE.PK','Office no 4 Mepco Computer Center Raheem Yar Khan','info@shopone.pk','fo*kJYZW','03004444000'),
-('SHOPPING HUB','Office no 35 Milk Shop Opposite To HBL BANK Nawabad Taxila','waleedcheema91@gmail.com','0Azydd<J','03604095459')
+('SHOPPING HUB','Office no 35 Milk Shop Opposite To HBL BANK Nawabad Taxila','waleedcheema91@gmail.com','0Azydd<J','03604095459');
 
---CATEGORY
 
 Insert Into Category Values
 ('Android Smart TV Box/Air Mouse'),
@@ -608,9 +604,8 @@ Insert Into Category Values
 ('Power Bank'),
 ('Security Cameras and Gadgets'),
 ('Smart Watch'),
-('USB Hub')
+('USB Hub');
 
---Product
 
 Insert Into Product Values
 ('Air Mouse C120 for Android and Smart TV','1'),
@@ -751,22 +746,19 @@ Insert Into Product Values
 ('USB hub 4 port 2.0 with Button','10'),
 ('USB hub charger Remax 5 port 5V 6A RUU1','10'),
 ('USB HUB 7 PORT 3.0 WITH SWITCH','10'),
-('ORICO USB HUB 4PORT 3.0 W59-U3-303-BK-PRO','10')
+('ORICO USB HUB 4PORT 3.0 W59-U3-303-BK-PRO','10');
 
---Country
 
-Insert Into Country Values('Pakistan')
+Insert Into Country Values('Pakistan');
 
---Province
 
 Insert Into Province Values
 ('Sindh'),
 ('Punjab'),
 ('Khyber-Pakhtunkhwa'),
 ('Islamabad Capital Territory'),
-('Balochistan')
+('Balochistan');
 
---City
 
 Insert Into City Values
 ('Karachi'),
@@ -836,9 +828,8 @@ Insert Into City Values
 ('Mianwali'),
 ('Tando Allahyar'),
 ('Kot Adu'),
-('Turbat')
+('Turbat');
 
---Zipcode
 
 Insert Into ZipCode Values
 ('1','1','1'),
@@ -908,9 +899,8 @@ Insert Into ZipCode Values
 ('65','2','1'),
 ('66','1','1'),
 ('67','2','1'),
-('68','5','1')
+('68','5','1');
 
---Courier
 
 Insert Into Courier Values 
 ('TCS','111123456'),
@@ -922,9 +912,8 @@ Insert Into Courier Values
 ('DCS Couriers','3212429142'),
 ('APX','92214529604'),
 ('Golden Pacific International','923212435911'),
-('PCL','9221111333725')
+('PCL','9221111333725');
 
---Address
 
 Insert Into Address Values
 ('207','47','1','1','Baldia Town'),
@@ -1572,9 +1561,8 @@ Insert Into Address Values
 ('43','42','485','13','Badu key'),
 ('145','5','485','13','Saho wala'),
 ('287','35','486','13','Bhopal wala'),
-('428','47','486','13','Allay wali')
+('428','47','486','13','Allay wali');
 
---Cart
 
 Insert Into Cart Values
 ('2016-04-30','33'),
@@ -2062,9 +2050,8 @@ Insert Into Cart Values
 ('2010-02-11','411'),
 ('2011-12-13','237'),
 ('2011-08-14','32'),
-('2010-09-22','419')
+('2010-09-22','419');
 
---VendorProduct
 
 Insert Into VendorProduct Values
 ('1','1','1000','132','This is a good Product'),
@@ -2266,10 +2253,9 @@ Insert Into VendorProduct Values
 ('33','125','2300','125','Cheaper than other vendors. Great Product works great'),
 ('6','126','2350','142','Cheaper than other vendors. Great Product works great'),
 ('42','127','2400','52','Cheaper than other vendors. Great Product works great'),
-('38','128','2450','105','Cheaper than other vendors. Great Product works great')
+('38','128','2450','105','Cheaper than other vendors. Great Product works great');
 
 
---CartProduct
 
 Insert Into CartProduct Values
 ('36','1','131'),
@@ -2373,10 +2359,9 @@ Insert Into CartProduct Values
 ('71','2','229'),
 ('72','2','230'),
 ('73','3','231'),
-('74','1','232')
+('74','1','232');
 
 
---VendorCourier
 
 Insert Into VendorCourier Values
 ('1','1'),
@@ -2858,10 +2843,9 @@ Insert Into VendorCourier Values
 ('48','7'),
 ('48','8'),
 ('48','9'),
-('48','10')
+('48','10');
 
 
---Orders
 
 Insert Into Orders Values
 ('1','2011-01-27','1','318','77425889862'),
@@ -3604,7 +3588,7 @@ Insert Into Orders Values
 ('252','2016-08-08','252','201','77425883907'),
 ('253','2012-07-22','253','89','77425882879'),
 ('254','2016-10-17','254','477','77425888158'),
-('255','2013-01-25','255','302','77425883787')
+('255','2013-01-25','255','302','77425883787');
 
 Insert Into Orders Values
 ('256','2015-11-08','256','302','77425888068'),
@@ -4323,9 +4307,8 @@ Insert Into Orders Values
 ('483','2012-03-29','639','74','99425881166'),
 ('484','2013-01-17','641','406','99425881167'),
 ('485','2011-04-09','643','110','99425881168'),
-('486','2011-02-15','645','477','99425881169')
+('486','2011-02-15','645','477','99425881169');
 
---OrderedProduct
 
 Insert Into OrderedProduct Values
 ('1','1','5'),
@@ -4976,7 +4959,7 @@ Insert Into OrderedProduct Values
 ('46','646','6'),
 ('47','647','5'),
 ('48','648','3'),
-('49','649','5')
+('49','649','5');
 
 Insert Into OrderedProduct Values
 ('50','650','6'),
@@ -5787,10 +5770,8 @@ Insert Into OrderedProduct Values
 ('55','1455','3'),
 ('56','1456','5'),
 ('57','1457','5'),
-('58','1458','1')
+('58','1458','1');
 
-
---Review
 
 Insert Into Review Values
 ('4','Great Product Slow delivery. Such slow much wow','1','1'),
